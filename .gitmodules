@@ -1,0 +1,3 @@
+[submodule "hugo/themes/hugo/themes/hugo-hero-theme"]
+	path = hugo/themes/hugo/themes/hugo-hero-theme
+	url = https://github.com/zerostaticthemes/hugo-hero-theme

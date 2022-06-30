@@ -1,0 +1,53 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Bianchi Accountants Limited"
+themesDir = "themes"
+theme = "hugo-hero-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.92.0"
+    
+[params]
+  google_analytics_id=""
+  author = "Bianchi Accountants Limited"
+
+  [params.logo]
+    mobile = "images/logo.jpg"
+    mobile_height = "100px"
+    mobile_width = "100px"
+    desktop = "images/logo.jpg"
+    desktop_height = "200px"
+    desktop_width = "300px"
+    alt = "Bianchi Accountants Limted"
+
+  [params.homepage_meta_tags]
+    meta_description = "We offer accounting and tax advice, planning and preparation services tailored to suit individuals and businesses in the North West."
+    meta_og_title = "Bianchi Accountants Limited"
+    meta_og_type = "website"
+    meta_og_url = "https://www.bianchiaccountants.co.uk"
+  #  meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+    meta_og_description = "We offer accounting and tax advice, planning and preparation services tailored to suit individuals and businesses in the North West."
+  #  meta_twitter_card = "summary"
+  #  meta_twitter_site = "@zerostaticio"
+  #  meta_twitter_creator = "@zerostaticio"
+
+[[menu.main]]
+	name = "About"
+	url = "/about/"
+    weight = 1
+
+[[menu.main]]
+    name = "Services"
+    url = "/Services/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
