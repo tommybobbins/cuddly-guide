@@ -6,4 +6,4 @@ button: 'About Us'
 buttonLink: '/about/'
 ---
 
-BIANCHI CHARTERED ACCOUNTANTS are based in Manchester.
+Based in Manchester.

@@ -7,12 +7,4 @@ heroSubHeading: "Established in 2009, we are a team of advisors putting your bus
 heroBackground: 'images/benefits.jpg'
 ---
 
-<div>
-{{< content-strip-left "/pages/about" "content1" >}}
-</div>
-<div>
-{{< content-strip-right "/pages/about" "content2" >}}
-</div>
-<div>
-{{< content-strip-center "/pages/about" "content3" >}}
-</div>
+Placeholder text
