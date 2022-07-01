@@ -33,6 +33,7 @@ jobs:
           personal_token: ${{ secrets.GH_TOKEN }}
           external_repository: tommybobbins/bianchiaccountants.github.io
           publish_dir: ./public
+          destination_dir: ./docs
           #   keep_files: true
           user_name: Tim Gibbon
           user_email: tommybobbins@gmail.com
