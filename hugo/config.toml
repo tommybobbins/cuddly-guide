@@ -33,7 +33,7 @@ theme = "hugo-hero-theme"
     weight = 1
 
 [[menu.main]]
-    name = "services"
+    name = "Services"
     url = "/services/"
     weight = 2
 
