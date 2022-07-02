@@ -31,7 +31,8 @@ jobs:
       - name: Build
         run: |
              cd hugo 
-             hugo --minify --config config-github.toml
+	     #hugo --minify --config config-github.toml
+             hugo --config config-github.toml
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
