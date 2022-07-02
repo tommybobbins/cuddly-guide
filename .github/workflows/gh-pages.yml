@@ -24,7 +24,7 @@ jobs:
       - name: Build
         run: |
              cd hugo 
-             hugo --minify
+             hugo --minify --config config-github.toml
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
