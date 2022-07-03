@@ -5423,9 +5423,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 ul,
 ol {
-  margin: 0;
+  margin: 20px;
   padding: 0;
-  list-style: none; }
+  list-style: disc !important; }
 
 .page {
   display: flex;
@@ -5441,7 +5441,7 @@ ol {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
-  height: 60px; }
+  height: 80px; }
   .header .container {
     display: flex;
     justify-content: space-between;
@@ -5568,7 +5568,7 @@ ol {
   @media (min-width: 576px) {
     .logo {
       display: block;
-      width: 120px; } }
+      width: 250px; } }
   .logo img {
     width: 100%;
     height: auto; }
@@ -5579,7 +5579,7 @@ ol {
 
 .logo-mobile {
   display: block;
-  width: 40px;
+  width: 125px;
   padding: 10px 0 10px 0; }
   @media (min-width: 576px) {
     .logo-mobile {
