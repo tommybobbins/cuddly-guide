@@ -1,9 +1,10 @@
 ---
 title: 'About us'
-weight: 1
+weight: 2
 Background: 'images/account3.jpg'
 button: 'About Us'
-buttonLink: '/about/'
+buttonLink: 'about'
 ---
 
-Based in Manchester.
+Based in Manchester. Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo,
+

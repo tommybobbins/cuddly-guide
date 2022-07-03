@@ -12,7 +12,7 @@ Bianchi Accountants Website – things that need sorting out.
 
     [x]	Any chance of including bullet points to the lists – I can for the life of me work it out? This would be good for each of the four service pages.
 
-    [ ]	Bottom part of main page – this is sort of an about section – can we left justify the text and not have it centred?
+    [x]	Bottom part of main page – this is sort of an about section – can we left justify the text and not have it centred?
 
     [ ]	Text at the bottom (about) on main page is likely to change as it simply replicates whats on the about page.
 
