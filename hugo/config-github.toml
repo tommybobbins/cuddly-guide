@@ -16,8 +16,8 @@ theme = "hugo-hero-theme"
   [params.logo]
     mobile = "images/logo.svg"
     desktop = "images/logo.svg"
-    desktop_height = "20px"
-    mobile_height = "20px"
+    desktop_height = "200px"
+    mobile_height = "200px"
     alt = "Bianchi Accountants Limted"
 
   [params.homepage_meta_tags]
