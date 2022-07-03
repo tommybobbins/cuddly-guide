@@ -25,7 +25,7 @@
 {{ range first 1 $reusablePages }}
 <div id="home" class="strip bg-cover bg-position-top bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
   <div class="container pt-17 pb-17">
-    <div class="row">
+    <div class="row justify-content-start">
       <div class="col-12 col-md-6 offset-md-6">
         <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
         <p>{{ .Content }}</p>
