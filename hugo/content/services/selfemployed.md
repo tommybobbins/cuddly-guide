@@ -6,9 +6,14 @@ featured: true
 draft: false
 weight: 1
 heroHeading: 'Self Employed'
-heroSubHeading: 'We offer tailored support to our clients covering the areas your business require.'
 heroBackground: 'services/service2.jpg'
 ---
+
+We offer tailored support to our clients covering the areas your business require.
+Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
+de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
+crimen habet Priamum nec.
+
 
 - Business Planning
 - Accounting Advice

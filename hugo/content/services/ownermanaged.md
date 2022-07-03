@@ -6,9 +6,17 @@ draft: false
 featured: true
 weight: 2
 heroHeading: 'Owner Managed Business and Limited Companies'
-heroSubHeading: 'We offer tailored support to our clients covering the areas your company require.'
+heroSubHeading: 'Owner Managed Business and Limited Companies SubHeading'
 heroBackground: 'services/service2.jpg'
 ---
+
+We offer tailored support to our clients covering the areas your company require.
+Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
+de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
+crimen habet Priamum nec.
+
+
+
 
 - Company Formation
 - Statuatory Accounts Prepartation and Submissions
