@@ -9,5 +9,5 @@ variable "common_tags" {
 
 variable "site_content" {
   description = "Path to the content directory"
-  default = "/tng_nfs/HOMER/sites/ramblers/public/"
+  default     = "/tng_nfs/HOMER/sites/ramblers/public/"
 }

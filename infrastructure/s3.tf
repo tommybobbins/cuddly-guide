@@ -1,7 +1,7 @@
 # S3 bucket for website.
 resource "aws_s3_bucket" "www" {
   bucket = "www.${var.domain_name}"
-  tags = var.common_tags
+  tags   = var.common_tags
 
 }
 
@@ -43,7 +43,7 @@ resource "aws_s3_bucket_website_configuration" "root" {
   bucket = aws_s3_bucket.root.id
 
   redirect_all_requests_to {
-    host_name =  "www.${var.domain_name}"
+    host_name = "www.${var.domain_name}"
   }
 }
 
