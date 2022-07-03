@@ -1,9 +1,8 @@
 ---
 title: 'About us'
 weight: 1
-Background: 'images/account3.jpg'
+background: 'images/account3.jpg'
 button: 'About Us'
-buttonLink: 'about'
 ---
 
 ## BIANCHI CHARTERED ACCOUNTANTS 

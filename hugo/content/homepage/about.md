@@ -1,6 +1,6 @@
 ---
 title: 'About us'
-weight: 3
+weight: 1
 Background: 'images/account3.jpg'
 button: 'About Us'
 buttonLink: '/about/'

@@ -2,7 +2,7 @@
 title: 'Accounting and Tax Advice'
 date: 2022-06-30T09:29:16+10:00
 weight: 1
-# Background: 'images/accounts.jpg'
+//background: 'images/accounts.jpg'
 align: right
 ---
 

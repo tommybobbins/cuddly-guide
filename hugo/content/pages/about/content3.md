@@ -2,7 +2,7 @@
 title: 'Purchasing and Selling a Company'
 weight: 3
 date: 2018-12-06T09:29:16+10:00
-background: ''
+//background: ''
 align: right
 button: 'Contact Us'
 buttonLink: 'contact'
