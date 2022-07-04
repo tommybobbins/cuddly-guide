@@ -9,7 +9,7 @@ Bianchi Accountants website
 cd infrastructure
 terraform init
 terraform plan
-terraform deploy
+terraform apply
 ```
 
 ## Deploy the hugo locally
