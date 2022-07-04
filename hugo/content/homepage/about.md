@@ -8,3 +8,6 @@ buttonLink: 'about'
 
 Based in Manchester. Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo,
 
+![](images/owllogo.jpg)
+![](images/firm_sm.jpg)
+

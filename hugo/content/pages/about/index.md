@@ -6,5 +6,3 @@ heroHeading: 'About Us'
 heroSubHeading: "Established in 2009, we are a team of advisors putting your business first."
 heroBackground: 'images/benefits.jpg'
 ---
-
-Placeholder text
