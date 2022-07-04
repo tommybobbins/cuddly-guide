@@ -48,8 +48,8 @@ resource "aws_s3_bucket_website_configuration" "root" {
 }
 
 # Upload content
-resource "null_resource" "remove_and_upload_to_s3" {
-  provisioner "local-exec" {
-    command = "aws s3 sync --metadata-directive REPLACE --cache-control 'max-age=86400, public' ${var.site_content} s3://${aws_s3_bucket.www.bucket}"
-  }
-}
+#resource "null_resource" "remove_and_upload_to_s3" {
+#  provisioner "local-exec" {
+#    command = "aws s3 sync --metadata-directive REPLACE --cache-control 'max-age=86400, public' ${var.site_content} s3://${aws_s3_bucket.www.bucket}"
+#  }
+#}
