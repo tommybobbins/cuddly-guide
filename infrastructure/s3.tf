@@ -2,11 +2,12 @@
 resource "aws_s3_bucket" "www" {
   bucket = "www.${var.domain_name}"
   tags   = var.common_tags
+  policy = templatefile("templates/s3-policy.json", { bucket = "www.${var.domain_name}" })
 
 }
 
 resource "aws_s3_bucket_website_configuration" "www" {
-  bucket = aws_s3_bucket.www.bucket
+  bucket = aws_s3_bucket.www.id
 
   index_document {
     suffix = "index.html"
@@ -31,6 +32,7 @@ resource "aws_s3_bucket" "root" {
   bucket = var.domain_name
   policy = templatefile("templates/s3-policy.json", { bucket = var.domain_name })
 }
+
 
 # S3 bucket for redirecting non-www to www.
 resource "aws_s3_bucket_acl" "root" {
