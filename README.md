@@ -31,4 +31,8 @@ Change into the cuddly-guide directory and then initialise the submodules.
 
 ```
 
+## Create an invalidation in CloudFront
 
+```
+aws cloudfront create-invalidation --distribution-id E3HZXPE32BOCAS --paths "/*";
+```
