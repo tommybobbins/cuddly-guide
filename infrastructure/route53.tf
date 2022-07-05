@@ -28,6 +28,23 @@ resource "aws_route53_record" "www-a" {
   }
 }
 
+resource "aws_route53_record" "google_mx" {
+  zone_id = aws_route53_zone.main.zone_id
+  name    = var.domain_name
+  type    = "MX"
+
+  records = [
+    "1 ASPMX.L.GOOGLE.COM",
+    "5 ALT1.ASPMX.L.GOOGLE.COM",
+    "5 ALT2.ASPMX.L.GOOGLE.COM",
+    "10 ASPMX2.GOOGLEMAIL.COM",
+    "10 ASPMX3.GOOGLEMAIL.COM",
+  ]
+  ttl = "300"
+}
+
+
+
 # Uncomment the below block if you are doing certificate validation using DNS instead of Email.
 resource "aws_route53_record" "cert_validation" {
   for_each = {
