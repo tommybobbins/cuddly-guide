@@ -31,8 +31,7 @@ jobs:
       - name: Build
         run: |
              cd hugo 
-             echo "hugo --minify --config config-github.toml"
-             hugo --config config-github.toml
+             hugo --config config.toml
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
