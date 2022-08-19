@@ -20,6 +20,13 @@ theme = "hugo-hero-theme"
     desktop_height = "200px"
     alt = "Bianchi Accountants Limted"
 
+  [params.acalogo]
+    mobile = "images/ACA_CTA-logo.png"
+    mobile_height = "100px"
+    desktop = "images/ACA_CTA-logo.png"
+    desktop_height = "200px"
+    alt = "ACA CTA logo"
+
   [params.homepage_meta_tags]
     meta_description = "We offer accounting and tax advice, planning and preparation services tailored to suit individuals and businesses in the North West."
     meta_og_title = "Bianchi Accountants Limited"

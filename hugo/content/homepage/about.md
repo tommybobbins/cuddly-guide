@@ -8,6 +8,3 @@ buttonLink: 'about'
 
 We are a firm of Chartered Accountants and Chartered Tax Advisors with over 20 years' experience.
 
-![](images/CIT.png)
-![](images/ICAEW.png)
-
