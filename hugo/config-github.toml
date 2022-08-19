@@ -1,6 +1,6 @@
-baseURL = "/bianchiaccountants/"
+baseURL = "/"
 languageCode = "en-us"
-title = "Bianchi Accountants Limited"
+title = "Bianchi Chartered Accountants"
 themesDir = "themes"
 theme = "hugo-hero-theme"
 
@@ -11,18 +11,25 @@ theme = "hugo-hero-theme"
     
 [params]
   google_analytics_id=""
-  author = "Bianchi Accountants Limited"
+  author = "Bianchi Chartered Accountants"
 
   [params.logo]
     mobile = "images/logo.jpg"
+    mobile_height = "100px"
     desktop = "images/logo.jpg"
     desktop_height = "200px"
-    mobile_height = "100px"
-    alt = "Bianchi Accountants Limted"
+    alt = "Bianchi Chartered Accountants"
+
+  [params.acalogo]
+    mobile = "images/icaew_ciot.png"
+    mobile_height = "50px"
+    desktop = "images/icaew_ciot.png"
+    desktop_height = "70px"
+    alt = "ACA CTA logo"
 
   [params.homepage_meta_tags]
     meta_description = "We offer accounting and tax advice, planning and preparation services tailored to suit individuals and businesses in the North West."
-    meta_og_title = "Bianchi Accountants Limited"
+    meta_og_title = "Bianchi Chartered Accountants"
     meta_og_type = "website"
     meta_og_url = "https://tommybobbins.github.io/"
     meta_og_description = "We offer accounting and tax advice, planning and preparation services tailored to suit individuals and businesses in the North West."
