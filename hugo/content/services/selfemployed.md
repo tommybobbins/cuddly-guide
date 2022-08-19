@@ -1,11 +1,11 @@
 ---
-title: 'Self Employed'
+title: 'Self Employed and Partnerships'
 # date: 2018-11-28T15:14:39-10:00
 icon: 'services/service-icon-6.png'
 featured: true
 draft: false
 weight: 1
-heroHeading: 'Self Employed'
+heroHeading: 'Self Employed and Partnerships'
 heroBackground: 'services/service2.jpg'
 ---
 
