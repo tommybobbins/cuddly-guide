@@ -1,7 +1,7 @@
 ---
 title: 'Self Employed and Partnerships'
 # date: 2018-11-28T15:14:39-10:00
-icon: 'services/service-icon-6.png'
+icon: 'services/service-icon-1.png'
 featured: true
 draft: false
 weight: 1
@@ -9,17 +9,13 @@ heroHeading: 'Self Employed and Partnerships'
 heroBackground: 'services/service2.jpg'
 ---
 
-We offer tailored support to our clients covering the areas your business require.
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+We prepare precise trading accounts to provide valuable business information to business owners, which in turn form the basis of accurate tax calculations and submissions.
 
+Services include
+- Trading accounts preparation
+- Income tax return preparation and submission to HMRC
+- Bookkeeping software advice
+- Tax efficiency planning
+- VAT & Payroll compliance
+- Business Planning & Financial Analysis
 
-- Business Planning
-- Accounting Advice
-- Employment Regulatory Requirement, PAYE and NIC
-- Payroll Management and Reporting Requirements
-- VAT Registration and Returns
-- Management Accounts
-- Financial Analyis - Helping you get the most out of your Financial Information
-- Inheritance Tax Planning
