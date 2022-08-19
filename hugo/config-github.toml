@@ -31,7 +31,7 @@ theme = "hugo-hero-theme"
     meta_description = "We offer accounting and tax advice, planning and preparation services tailored to suit individuals and businesses in the North West."
     meta_og_title = "Bianchi Chartered Accountants"
     meta_og_type = "website"
-    meta_og_url = "https://tommybobbins.github.io/"
+    meta_og_url = "https://tommybobbins.github.io/bianchiaccountants/"
     meta_og_description = "We offer accounting and tax advice, planning and preparation services tailored to suit individuals and businesses in the North West."
 
 [[menu.main]]
