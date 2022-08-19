@@ -6,4 +6,6 @@ weight: 1
 align: right
 ---
 
-We are a firm of chartered accountants with over 20 years experience. Gaining chartered tax advisor status in 2010 we can provide detailed knowledge of the most up to date tax legislation effecting individuals and businesses today.
+We are a firm of Chartered Accountants and Chartered Tax Advisors with over 20 years’ experience. Committed to providing accurate and useful advice to our clients, we can provide detailed knowledge of the most up to date tax legislation effecting individuals and businesses today. With our extensive commercial experience and understanding we can offer practical and insightful advice to clients across all sectors.
+Based in Middleton, Manchester we offer a friendly, modern approach to clients of all sizes.  We welcome new clients and will make the transition of changing accountants easy and straightforward.  
+
