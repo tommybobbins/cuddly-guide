@@ -6,4 +6,4 @@ heroBackground: 'images/buttons.jpg'
 
 ---
 
-Please call or email us, we offer a free consultation for all new clients.
+Contact us today for a free no obligation consultation to help us establish your needs and provide a tailored service package with a fixed fee quote with no hidden charges. 
