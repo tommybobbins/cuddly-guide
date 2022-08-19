@@ -32,7 +32,6 @@ theme = "hugo-hero-theme"
     meta_og_title = "Bianchi Chartered Accountants"
     meta_og_type = "website"
     meta_og_url = "https://www.bianchiaccountants.co.uk/"
->>>>>>> e4703fd (Corrected config.toml)
     meta_og_description = "We offer accounting and tax advice, planning and preparation services tailored to suit individuals and businesses in the North West."
 
 [[menu.main]]
