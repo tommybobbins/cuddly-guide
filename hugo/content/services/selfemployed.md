@@ -17,5 +17,5 @@ Services include
 - Bookkeeping software advice
 - Tax efficiency planning
 - VAT & Payroll compliance
-- Business Planning & Financial Analysis
+- Business planning & Financial analysis
 
