@@ -6,7 +6,7 @@ draft: false
 featured: true
 weight: 1
 heroHeading: 'Rental Property'
-heroBackground: 'services/service1.jpg'
+heroBackground: 'services/service2.jpg'
 ---
 
 The taxation laws around rental property income can be challenging and changeable. We prepare accurate rental property accounts and tax liability calculations to help you understand the value of your investments.
