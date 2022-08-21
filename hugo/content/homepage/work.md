@@ -3,7 +3,7 @@ title: 'Helping our clients achieve their goals'
 weight: 1
 align : centre
 Background: 'images/account4.jpg'
-button: 'Our Work'
+button: 'About Us'
 buttonLink: 'growth'
 ---
 
