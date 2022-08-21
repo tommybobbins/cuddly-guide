@@ -13,15 +13,15 @@ heroBackground: 'services/service2.jpg'
 We offer tailored support to company shareholders and directors to ensure you are fully compliant with Companies House and HMRC as well as offering support to help your business grow.
 Services include
 
-- Company Formation
+- Company formation
 - Statutory accounts preparation and submission to Companies House
 - Corporation tax return preparation and submission to HMRC
 - Bookkeeping software advice
 - Tax efficiency planning
-- Structuring Advice
+- Structuring advice
 - VAT & Payroll compliance
-- Management Accounts
-- Business Planning & Financial Analysis
-- Financial Analysis
+- Management accounts
+- Business planning & financial analysis
+- Financial analysis
 
 
