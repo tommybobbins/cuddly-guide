@@ -6,6 +6,16 @@ resource "aws_s3_bucket" "www" {
 
 }
 
+# Add bucket encryption
+resource "aws_s3_bucket_server_side_encryption_configuration" "www_encryption" {
+  bucket = aws_s3_bucket.www.bucket
+  rule {
+    apply_server_side_encryption_by_default {
+      sse_algorithm     = "AES256"
+    }
+  }
+}
+
 resource "aws_s3_bucket_website_configuration" "www" {
   bucket = aws_s3_bucket.www.id
 
@@ -31,6 +41,16 @@ resource "aws_s3_bucket_cors_configuration" "www_cors" {
 resource "aws_s3_bucket" "root" {
   bucket = var.domain_name
   policy = templatefile("templates/s3-policy.json", { bucket = var.domain_name })
+}
+
+# Add bucket encryption
+resource "aws_s3_bucket_server_side_encryption_configuration" "root_encryption" {
+  bucket = aws_s3_bucket.root.bucket
+  rule {
+    apply_server_side_encryption_by_default {
+      sse_algorithm     = "AES256"
+    }
+  }
 }
 
 

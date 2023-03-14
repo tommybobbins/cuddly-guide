@@ -43,6 +43,18 @@ resource "aws_route53_record" "google_mx" {
   ttl = "300"
 }
 
+resource "aws_route53_record" "google_spf" {
+  zone_id = aws_route53_zone.main.zone_id
+  name    = var.domain_name
+  type    = "TXT"
+
+  records = [
+    "v=spf1 include:_spf.google.com ~all",
+  ]
+  ttl = "300"
+}
+
+
 
 
 # Uncomment the below block if you are doing certificate validation using DNS instead of Email.
