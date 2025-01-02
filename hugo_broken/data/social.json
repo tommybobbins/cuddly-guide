@@ -1,0 +1,12 @@
+[
+    {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/teresa-bianchi-22821920/?originalSubdomain=uk",
+        "image": "social/linked.png"
+    },
+    {
+        "name": "Twitter",
+        "link": "https://twitter.com/bianchi_limited",
+        "image": "social/twitter.svg"
+    }
+]

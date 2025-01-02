@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Bianchi Chartered Accountants</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Home on Bianchi Chartered Accountants</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Dec 2018 09:29:16 +1000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Limited Companies</title>
+      <link>//localhost:1313/services/limitedcompanies/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 -1000</pubDate>
+      <guid>//localhost:1313/services/limitedcompanies/</guid>
+      <description>&lt;p&gt;We offer tailored support to company shareholders and directors to ensure you are fully compliant with Companies House and HMRC as well as offering support to help your business grow.&#xA;Services include&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Company formation&lt;/li&gt;&#xA;&lt;li&gt;Statutory accounts preparation and submission to Companies House&lt;/li&gt;&#xA;&lt;li&gt;Corporation tax return preparation and submission to HMRC&lt;/li&gt;&#xA;&lt;li&gt;Bookkeeping software advice&lt;/li&gt;&#xA;&lt;li&gt;Tax efficiency planning&lt;/li&gt;&#xA;&lt;li&gt;Structuring advice&lt;/li&gt;&#xA;&lt;li&gt;VAT &amp;amp; Payroll compliance&lt;/li&gt;&#xA;&lt;li&gt;Management accounts&lt;/li&gt;&#xA;&lt;li&gt;Business planning &amp;amp; financial analysis&lt;/li&gt;&#xA;&lt;li&gt;Financial analysis&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Personal Tax</title>
+      <link>//localhost:1313/services/personaltax/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 -1000</pubDate>
+      <guid>//localhost:1313/services/personaltax/</guid>
+      <description>&lt;p&gt;Self-assessment income tax requirements can be time consuming and at times overwhelming. We can provide an overview of what services you might need and ask the right questions to ensure you are paying the right amount of tax.&lt;/p&gt;&#xA;&lt;p&gt;Services include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Self-assessment income tax return preparation and submission to HMRC&lt;/li&gt;&#xA;&lt;li&gt;Income tax planning&lt;/li&gt;&#xA;&lt;li&gt;Tax code review&lt;/li&gt;&#xA;&lt;li&gt;Personal pension contribution impact review&lt;/li&gt;&#xA;&lt;li&gt;Capital gains tax advice and calculations&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Rental Property</title>
+      <link>//localhost:1313/services/rental/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 -1000</pubDate>
+      <guid>//localhost:1313/services/rental/</guid>
+      <description>&lt;p&gt;The taxation laws around rental property income can be challenging and changeable. We prepare accurate rental property accounts and tax liability calculations to help you understand the value of your investments.&lt;/p&gt;&#xA;&lt;p&gt;Services include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rental accounts preparation&lt;/li&gt;&#xA;&lt;li&gt;Self-assessment income tax return preparation and submission to HMRC&lt;/li&gt;&#xA;&lt;li&gt;Bookkeeping software advice&lt;/li&gt;&#xA;&lt;li&gt;Tax efficiency planning&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Payroll &amp; Auto-enrolment</title>
+      <link>//localhost:1313/services/payroll/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      <guid>//localhost:1313/services/payroll/</guid>
+      <description>&lt;p&gt;Payroll can be time consuming and complex. We can handle all your monthly and annual payroll submissions to HMRC and to your workplace pension auto enrolment provider.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>VAT</title>
+      <link>//localhost:1313/services/vat/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      <guid>//localhost:1313/services/vat/</guid>
+      <description>&lt;p&gt;We have the experience help you to ensure that your VAT returns are submitted correctly and on time. We can advice on the latest VAT guidance and legislation. We have the experience and knowledge to guide you in making sure you are compliant with Making Tax Digital (“MTD”) requirements so you are using the right software solutions for your business.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Self Employed and Partnerships</title>
+      <link>//localhost:1313/services/selfemployed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/selfemployed/</guid>
+      <description>&lt;p&gt;We prepare precise trading accounts to provide valuable business information to business owners, which in turn form the basis of accurate tax calculations and submissions.&lt;/p&gt;&#xA;&lt;p&gt;Services include&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Trading accounts preparation&lt;/li&gt;&#xA;&lt;li&gt;Income tax return preparation and submission to HMRC&lt;/li&gt;&#xA;&lt;li&gt;Bookkeeping software advice&lt;/li&gt;&#xA;&lt;li&gt;Tax efficiency planning&lt;/li&gt;&#xA;&lt;li&gt;VAT &amp;amp; Payroll compliance&lt;/li&gt;&#xA;&lt;li&gt;Business planning &amp;amp; Financial analysis&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Your Company Growth</title>
+      <link>//localhost:1313/growth/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      <guid>//localhost:1313/growth/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
