@@ -1,5 +1,5 @@
 # cuddly-guide
-Bianchi Accountants website
+Bianchi Accountants website.
 
 ## INSTALL
 
