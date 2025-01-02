@@ -1,29 +1,80 @@
-# S3 bucket for website.
+####
 resource "aws_s3_bucket" "www" {
   bucket = "www.${var.domain_name}"
-  tags   = var.common_tags
-  policy = templatefile("templates/s3-policy.json", { bucket = "www.${var.domain_name}" })
-
 }
 
+resource "aws_s3_bucket_ownership_controls" "example" {
+  bucket = aws_s3_bucket.www.id
+  rule {
+    object_ownership = "BucketOwnerPreferred"
+  }
+}
+
+resource "aws_s3_bucket_public_access_block" "www" {
+  bucket = aws_s3_bucket.www.bucket
+
+  block_public_acls       = false
+  block_public_policy     = false
+  ignore_public_acls      = false
+  restrict_public_buckets = false
+}
+
+resource "aws_cloudfront_origin_access_control" "www" {
+  name                              = "cloudfront OAC ${split(".", var.domain_name)[0]}"
+  description                       = "description of OAC"
+  origin_access_control_origin_type = "s3"
+  signing_behavior                  = "always"
+  signing_protocol                  = "sigv4"
+}
+
+data "aws_iam_policy_document" "www" {
+  statement {
+    actions   = ["s3:*"]
+    resources = ["${aws_s3_bucket.www.arn}/*"]
+    principals {
+      type        = "Service"
+      identifiers = ["cloudfront.amazonaws.com"]
+    }
+    condition {
+      test     = "StringEquals"
+      variable = "aws:SourceArn"
+      values   = [aws_cloudfront_distribution.www_s3_distribution.arn]
+    }
+  }
+}
+
+resource "aws_s3_bucket_policy" "www" {
+  bucket = aws_s3_bucket.www.id
+  policy = data.aws_iam_policy_document.www.json
+}
+
+
+####
 # Add bucket encryption
 resource "aws_s3_bucket_server_side_encryption_configuration" "www_encryption" {
   bucket = aws_s3_bucket.www.bucket
   rule {
     apply_server_side_encryption_by_default {
-      sse_algorithm     = "AES256"
+      sse_algorithm = "AES256"
     }
   }
 }
 
 resource "aws_s3_bucket_website_configuration" "www" {
   bucket = aws_s3_bucket.www.id
-
   index_document {
     suffix = "index.html"
   }
   error_document {
     key = "error.html"
+  }
+  routing_rule {
+    condition {
+      http_error_code_returned_equals = "404"
+    }
+    redirect {
+      replace_key_with = "index.html"
+    }
   }
 }
 
@@ -38,40 +89,9 @@ resource "aws_s3_bucket_cors_configuration" "www_cors" {
   }
 }
 
-resource "aws_s3_bucket" "root" {
-  bucket = var.domain_name
-  policy = templatefile("templates/s3-policy.json", { bucket = var.domain_name })
-}
-
-# Add bucket encryption
-resource "aws_s3_bucket_server_side_encryption_configuration" "root_encryption" {
-  bucket = aws_s3_bucket.root.bucket
-  rule {
-    apply_server_side_encryption_by_default {
-      sse_algorithm     = "AES256"
-    }
-  }
-}
-
-
-# S3 bucket for redirecting non-www to www.
-resource "aws_s3_bucket_acl" "root" {
-  bucket = aws_s3_bucket.root.id
-  acl    = "public-read"
-}
-
-
-resource "aws_s3_bucket_website_configuration" "root" {
-  bucket = aws_s3_bucket.root.id
-
-  redirect_all_requests_to {
-    host_name = "www.${var.domain_name}"
-  }
-}
-
-# Upload content
+# # Upload content
 #resource "null_resource" "remove_and_upload_to_s3" {
-#  provisioner "local-exec" {
-#    command = "aws s3 sync --metadata-directive REPLACE --cache-control 'max-age=86400, public' ${var.site_content} s3://${aws_s3_bucket.www.bucket}"
-#  }
+# provisioner "local-exec" {
+#   command = "aws s3 sync --metadata-directive REPLACE --cache-control 'max-age=86400, public' ${var.site_content} s3://${aws_s3_bucket.www.bucket}"
+# }
 #}

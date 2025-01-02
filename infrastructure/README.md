@@ -28,9 +28,9 @@ Generally you will want to call you S3 bucket the name of your domain but if tha
 
 ## Commands to run
 
-- `terraform init` - To initialise the project and download any required packages.
-- `terraform plan` - To see what has changed compared to your current configuration.
-- `terrform apply` - To apply your changes.
+- `tofu init` - To initialise the project and download any required packages.
+- `tofu plan` - To see what has changed compared to your current configuration.
+- `tofu apply` - To apply your changes.
 
 The terraform scripts are set up to validate your SSL certificate via email. So you should receive an email from AWS to `webmaster@yourdomain.com` when running apply which you need to approve in order for the SSL certificate to be validated.
 
@@ -61,6 +61,6 @@ Where `E3EDVELPIKTLHJ` is the Cloudfront ID associated with your www S3 bucket.
 To perform a further upload from hugo
 
 ```
-$ terraform taint null_resource.remove_and_upload_to_s3
-$ terraform apply -auto-approve
+$ tofu taint null_resource.remove_and_upload_to_s3
+$ tofu apply -auto-approve
 ```
