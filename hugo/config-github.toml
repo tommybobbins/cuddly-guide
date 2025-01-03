@@ -16,15 +16,13 @@ theme = "hugo-hero-theme"
   [params.logo]
     mobile = "images/logo.jpg"
     mobile_height = "50px"
-    desktop = "images/logo.jpg"
-    desktop_height = "200px"
     alt = "Bianchi Chartered Accountants"
 
   [params.acalogo]
     mobile = "images/icaew_ciot.png"
     mobile_height = "25px"
     desktop = "images/icaew_ciot.png"
-    desktop_height = "70px"
+    desktop_height = "40px"
     alt = "ACA CTA logo"
 
   [params.homepage_meta_tags]
