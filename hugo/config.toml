@@ -13,6 +13,7 @@ uglyURLs = true
 [params]
   google_analytics_id=""
   author = "Bianchi Chartered Accountants"
+  uglyURLs = true
 
   [params.logo]
     mobile = "images/logo.jpg"
