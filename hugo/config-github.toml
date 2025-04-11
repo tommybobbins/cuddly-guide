@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Bianchi Chartered Accountants"
 themesDir = "themes"
 theme = "hugo-hero-theme"
-uglyURLs = true
 
 [module]
   [module.hugoVersion]
