@@ -13,7 +13,7 @@ module "website" {
   source  = "terraform-aws-modules/s3-bucket/aws"
   version = "~> 3"
 
-  bucket = "www.${var.domain_name}"
+  bucket_prefix = replace("www.${var.domain_name}","/\\W/","")
   attach_policy = true
   policy        = data.aws_iam_policy_document.ui_bucket_policy.json
 
@@ -39,7 +39,7 @@ module "cdn" {
   
   s3_origin_config = [{
     # domain_name = local.s3_region_domain
-    domain_name = module.website.s3_bucket_bucket_regional_domain_name
+    domain_name = module.website.s3_bucket_bucket_domain_name
   }]
 
 
