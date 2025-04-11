@@ -35,17 +35,17 @@ uglyURLs = true
 
 [[menu.main]]
     name = "About"
-    url = "/about/index.html"
+    url = "/about.html"
     weight = 1
 
 [[menu.main]]
     name = "Services"
-    url = "/services/index.html"
+    url = "/services.html"
     weight = 2
 
 [[menu.main]]
     name = "Contact"
-    url = "/contact/index.html"
+    url = "/contact.html"
     weight = 3
 
 [permalinks]
