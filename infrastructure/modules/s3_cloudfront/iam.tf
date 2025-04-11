@@ -22,7 +22,7 @@ data "aws_iam_policy_document" "cloudfront_invalidation" {
     actions = [
       "cloudfront:CreateInvalidation",
     ]
-    resources = [module.cdn.cf_arn]
+    resources = [module.cdn.cloudfront_distribution_arn]
   }
 }
 

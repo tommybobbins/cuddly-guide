@@ -13,7 +13,6 @@ uglyURLs = true
 [params]
   google_analytics_id=""
   author = "Bianchi Chartered Accountants"
-  uglyURLs = true
 
   [params.logo]
     mobile = "images/logo.jpg"
@@ -36,17 +35,17 @@ uglyURLs = true
 
 [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "/about/index.html"
     weight = 1
 
 [[menu.main]]
     name = "Services"
-    url = "/services/"
+    url = "/services/index.html"
     weight = 2
 
 [[menu.main]]
     name = "Contact"
-    url = "/contact/"
+    url = "/contact/index.html"
     weight = 3
 
 [permalinks]
