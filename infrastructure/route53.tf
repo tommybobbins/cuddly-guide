@@ -11,8 +11,8 @@ resource "aws_route53_record" "root-a" {
   type    = "A"
 
   alias {
-    name                   = aws_cloudfront_distribution.www_s3_distribution.domain_name
-    zone_id                = aws_cloudfront_distribution.www_s3_distribution.hosted_zone_id
+    name                   = module.bianchi_accountants.cf_domain_name
+    zone_id                = module.bianchi_accountants.cf_hosted_zone_id
     evaluate_target_health = false
   }
 }
@@ -23,14 +23,14 @@ resource "aws_route53_record" "www-a" {
   type    = "A"
 
   alias {
-    name                   = aws_cloudfront_distribution.www_s3_distribution.domain_name
-    zone_id                = aws_cloudfront_distribution.www_s3_distribution.hosted_zone_id
+    name                   = module.bianchi_accountants.cf_domain_name
+    zone_id                = module.bianchi_accountants.cf_hosted_zone_id
     evaluate_target_health = false
   }
 }
 
 resource "aws_route53_record" "google_mx" {
-  zone_id = aws_route53_zone.main.zone_id
+  zone_id = data.aws_route53_zone.main.zone_id
   name    = var.domain_name
   type    = "MX"
 
@@ -45,7 +45,7 @@ resource "aws_route53_record" "google_mx" {
 }
 
 resource "aws_route53_record" "google_spf" {
-  zone_id = aws_route53_zone.main.zone_id
+  zone_id = data.aws_route53_zone.main.zone_id
   name    = var.domain_name
   type    = "TXT"
 
@@ -56,22 +56,40 @@ resource "aws_route53_record" "google_spf" {
 }
 
 
+# import {
+#   to = aws_route53_record.root-a
+#   id = "Z08955381L0BLZRSYO2HH_bianchiaccountants.co.uk_A"
+# }
 
+# import {
+#   to = aws_route53_record.www-a
+#   id = "Z08955381L0BLZRSYO2HH_www.bianchiaccountants.co.uk_A"
+# }
 
-# Uncomment the below block if you are doing certificate validation using DNS instead of Email.
-resource "aws_route53_record" "cert_validation" {
-  for_each = {
-    for dvo in aws_acm_certificate.ssl_certificate.domain_validation_options : dvo.domain_name => {
-      name    = dvo.resource_record_name
-      record  = dvo.resource_record_value
-      type    = dvo.resource_record_type
-      zone_id = data.aws_route53_zone.main.zone_id
-    }
-  }
-  allow_overwrite = true
-  name            = each.value.name
-  records         = [each.value.record]
-  ttl             = 60
-  type            = each.value.type
-  zone_id         = each.value.zone_id
-}
+# import {
+#   to = aws_route53_record.google_mx
+#   id = "Z08955381L0BLZRSYO2HH_bianchiaccountants.co.uk_MX"
+# }
+
+# import {
+#   to = aws_route53_record.google_spf
+#   id = "Z08955381L0BLZRSYO2HH_bianchiaccountants.co.uk_TXT"
+# }
+
+# # Uncomment the below block if you are doing certificate validation using DNS instead of Email.
+# resource "aws_route53_record" "cert_validation" {
+#   for_each = {
+#     for dvo in aws_acm_certificate.ssl_certificate.domain_validation_options : dvo.domain_name => {
+#       name    = dvo.resource_record_name
+#       record  = dvo.resource_record_value
+#       type    = dvo.resource_record_type
+#       zone_id = data.aws_route53_zone.main.zone_id
+#     }
+#   }
+#   allow_overwrite = true
+#   name            = each.value.name
+#   records         = [each.value.record]
+#   ttl             = 60
+#   type            = each.value.type
+#   zone_id         = each.value.zone_id
+# }
