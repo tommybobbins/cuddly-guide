@@ -19,9 +19,9 @@ theme = "hugo-hero-theme"
     alt = "Bianchi Chartered Accountants"
 
   [params.acalogo]
-    mobile = "images/icaew_ciot.png"
+    mobile = "images/icaewonly.png"
     mobile_height = "25px"
-    desktop = "images/icaew_ciot.png"
+    desktop = "images/icaewonly.png"
     desktop_height = "40px"
     alt = "ACA CTA logo"
 
