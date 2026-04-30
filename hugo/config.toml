@@ -20,9 +20,9 @@ uglyURLs = true
     alt = "Bianchi Chartered Accountants"
 
   [params.acalogo]
-    mobile = "images/icaewonly.png"
+    mobile = "images/icaewonlyr.png"
     mobile_height = "25px"
-    desktop = "images/icaewonly.png"
+    desktop = "images/icaewonlyr.png"
     desktop_height = "40px" 
     alt = "ACA CTA logo"
 
